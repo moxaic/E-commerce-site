@@ -1,0 +1,9 @@
+.additional_info {
+  align-items: center;
+  background-color: gray;
+  color: rgb(238, 238, 238);
+  display: flex;
+  justify-content: space-around;
+  margin-top: 75px;
+  padding: 10px;
+}

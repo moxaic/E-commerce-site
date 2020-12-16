@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 110px;
+}
+.image_container {
+  background-color: thistle;
+  height: 600px;
+  width: 400px;
+}
+.image {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+.specs {
+  padding: 20px;
+  width: 550px;
+}
+.specs > * {
+  margin-bottom: 10px;
+}
+.cart {
+  background-color: teal;
+  height: 400px;
+  width: 300px;
+}

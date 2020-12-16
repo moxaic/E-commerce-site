@@ -1,0 +1,12 @@
+.image_banners {
+  align-items: center;
+  background-color: rgba(115, 210, 230, 0.47);
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 110px;
+}
+.image_banners > img {
+  height: 300px;
+  object-fit: cover;
+  width: 400px;
+}

@@ -1,0 +1,33 @@
+.carousel_container {
+  position: relative;
+  width: 100%;
+}
+.active {
+  display: block;
+}
+.active > img {
+  height: 400px;
+  object-fit: cover;
+  width: 100%;
+}
+.inactive {
+  display: none;
+}
+.control {
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  font-size: 30px;
+  height: 100%;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  width: 7%;
+}
+.prev {
+  left: 0;
+}
+.next {
+  right: 0;
+}

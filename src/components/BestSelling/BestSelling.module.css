@@ -1,0 +1,18 @@
+.best_selling {
+  padding: 30px 110px;
+}
+.best_selling > h2 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.best_selling > div {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+.product_card {
+  background-color: teal;
+  height: 250px;
+  width: 230px;
+}
